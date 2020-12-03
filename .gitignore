@@ -1,0 +1,33 @@
+#Backend
+backend-server/node_modules/
+backend-server/npm-debug.log*
+backend-server/yarn-debug.log*
+backend-server/yarn-error.log*
+
+#Front
+front-tickets/node_modules/
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+front-tickets/node_modules
+front-tickets/.pnp
+front-tickets/.pnp.js
+
+# testing
+front-tickets/coverage
+
+# production
+front-tickets/build
+
+# misc
+front-tickets/.DS_Store
+front-tickets/.env
+front-tickets/.env.local
+front-tickets/.env.development.local
+front-tickets/.env.test.local
+front-tickets/.env.production.local
+
+front-tickets/npm-debug.log*
+front-tickets/yarn-debug.log*
+front-tickets/yarn-error.log*
